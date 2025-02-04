@@ -1,7 +1,7 @@
 # 🚀 Mission: DevPossible
 "Making on-premise development faster, smoother, and (slightly) less painful!"
 
-This repository is the command center for transforming Swissgrid’s on-premises development environment. From streamlining approvals to boosting machine performance, we're tackling the biggest dev headaches with practical solutions. 
+This repository is the command center for transforming Swissgrid’s on-premise development environment. From streamlining approvals to boosting machine performance, we're tackling the biggest dev headaches with practical solutions. 
 
 ## Context
 
@@ -11,7 +11,7 @@ This repository is the command center for transforming Swissgrid’s on-premises
 
 - Slow and Restrictive Software Approval Process
 - Slow Development Machines
-- Frquent Software Failures
+- Frequent Software Failures
 - Lack of Software Ownership
 
 ## Prioritized Solutions
@@ -25,19 +25,22 @@ The distribution of solutions in the different phases considers a balance betwee
   Proposed Solutions:
   - Automate approval workflows where possible
     - Introduce a pre-approved software list to eliminate repetitive approvals.
-    - Create IAM roles with specific authorizations (as done in R&D)
-  - Rethink approval workflow: delegate approval for specific categories of software to tech leads who understand developer needs.
+    - Create IAM roles with specific authorizations (as done in R&D).
+  - Rethink approval workflow:
+    - Send to direct manager to confirm project needs.
+    - Forward to relevant tech department which understands developer needs.
   
   Expected Outcome: 
   - Reduced waiting time for approvals → improved developer satisfaction
-  - Reduction is administrative tasks for managers
+  - Reduction is administrative tasks for department leads
   
   
   #### Improve development machines
   
   Proposed Solutions:
-  - Upgrade development machines for frequent developers (16GB RAM and 16-core CPUs)
-  - Re-assess "heavy" softwares that are making the machines slow
+  - Upgrade development machines for frequent developers (16GB RAM, SSDs, better CPUs).
+  - Re-assess "heavy" softwares that are making the machines slow.
+  - Divide developers according to usage and adapt current environment to different groups.
   
   Expected Outcome:
   - Better performance → Faster machines, fewer delays.
@@ -45,11 +48,11 @@ The distribution of solutions in the different phases considers a balance betwee
 
 ### Phase 2: Mid-term actions 
 
-  #### Improve Software Testing 
+  #### Improve Software Testing & Accountability
   
   Proposed Solutions:
+  - Define clear ownership, ensuring each software owner commits to testing updates before deployment (“No Untested Updates” policy).
   - Introduce a mandatory staging environment to test software updates before deployment.
-  - Implement a “No Untested Updates” policy for Software Owners.
   
   Expected Outcome:
   - More stability → Software failures decrease with enforced testing.
@@ -65,12 +68,11 @@ The distribution of solutions in the different phases considers a balance betwee
 
 ### Phase 3: Long-term actions
 
-  #### Increase Software Ownership & Set Up a framework for testing
+  #### Improve on-premise development practises
   
   Proposed Solutions:
-  - Define clear ownership, ensuring each software owner commits to testing updates before deployment.
-  - Require Software Owners to maintain up-to-date tests for their software.
   - Introduce automated testing as part of the CI/CD process.
+  - Guidelines for development & testing.
   
   Expected Outcome:
   - Increased accountability → Software Owners take responsibility for their products.
@@ -78,11 +80,11 @@ The distribution of solutions in the different phases considers a balance betwee
   #### Move selected projects to cloud environment
   
   Proposed Solutions:
-  - Transition projects into the Data Platform according to use case squad availability
-  - Establish clear guidelines for when to use on-premises vs. cloud environments
+  - Transition projects into the Data Platform according to "Use-Case Squad" availability
+  - Establish clear guidelines for on-premise vs. cloud environments use
   
   Expected Outcome:
-  - Greater cloud adoption → Reduced reliance on restrictive on-prem environments.
+  - Greater cloud adoption → Reduced reliance on restrictive on-premise environments.
 
 ## Next steps
 
