@@ -20,67 +20,69 @@ The distribution of solutions in the different phases considers a balance betwee
 
 ### Phase 1: Short-term actions
 
-#### Improve Software Approval Process
-
-Proposed Solutions:
-- Automate approval workflows where possible
-  - Introduce a pre-approved software list to eliminate repetitive approvals.
-  - Create IAM roles with specific authorizations (as done in R&D)
-- Rethink approval workflow: Delegate approval for specific categories of software to tech leads who understand developer needs.
-
-Expected outcome: 
-- Reduced waiting time for approvals → improved developer satisfaction
-- Reduction is administrative tasks for managers
-
-
-#### Improve development machines
-
-Proposed solutions:
-- Upgrade development machines for frequent developers (16GB RAM and 16-core CPUs)
-- Re-assess "heavy" softwares that are making the machines slow and remove them for users that dont need them (?)
-
-Expected outcome:
-- Better performance → Faster machines, fewer delays.
+  #### Improve Software Approval Process
+  
+  Proposed Solutions:
+  - Automate approval workflows where possible
+    - Introduce a pre-approved software list to eliminate repetitive approvals.
+    - Create IAM roles with specific authorizations (as done in R&D)
+  - Rethink approval workflow: delegate approval for specific categories of software to tech leads who understand developer needs.
+  
+  Expected Outcome: 
+  - Reduced waiting time for approvals → improved developer satisfaction
+  - Reduction is administrative tasks for managers
+  
+  
+  #### Improve development machines
+  
+  Proposed Solutions:
+  - Upgrade development machines for frequent developers (16GB RAM and 16-core CPUs)
+  - Re-assess "heavy" softwares that are making the machines slow
+  
+  Expected Outcome:
+  - Better performance → Faster machines, fewer delays.
 
 
 ### Phase 2: Mid-term actions 
 
-#### Improve Software Testing 
-
-Proposed solutions:
-- Introduce a mandatory staging environment to test software updates before deployment.
-- Implement a “No Untested Updates” policy for Software Owners.
-
-Expected outcome:
-- More stability → Software failures decrease with enforced testing.
-
-#### Promote on-cloud environment
-
-Proposed solutions:
-- Start assessing which projects/developers can move to the cloud environemnt.
-
-Expected outcome:
-- Users become more aware of cloud computing possibilites
+  #### Improve Software Testing 
+  
+  Proposed Solutions:
+  - Introduce a mandatory staging environment to test software updates before deployment.
+  - Implement a “No Untested Updates” policy for Software Owners.
+  
+  Expected Outcome:
+  - More stability → Software failures decrease with enforced testing.
+  
+  #### Promote on-cloud environment
+  
+  Proposed Solutions:
+  - Start assessing which projects/developers can move to the cloud environemnt.
+  
+  Expected Outcome:
+  - Users become more aware of cloud computing possibilites
 
 
 ### Phase 3: Long-term actions
 
-#### Increase Software Ownership & Set Up a framework for testing
-
-Proposed solutions:
-- Define clear ownership, ensuring each software owner commits to testing updates before deployment.
-- Require Software Owners to maintain up-to-date tests for their software.
-- Introduce automated testing as part of the CI/CD process.
-
-Expected outcome:
-- Increased accountability → Software Owners take responsibility for their products.
-
-#### Move selected projects to cloud environment
-- Transition projects into the Data Platform according to use case squad availability
-- Establish clear guidelines for when to use on-premises vs. cloud environments
-
-Expected outcome:
-- Greater cloud adoption → Reduced reliance on restrictive on-prem environments.
+  #### Increase Software Ownership & Set Up a framework for testing
+  
+  Proposed Solutions:
+  - Define clear ownership, ensuring each software owner commits to testing updates before deployment.
+  - Require Software Owners to maintain up-to-date tests for their software.
+  - Introduce automated testing as part of the CI/CD process.
+  
+  Expected Outcome:
+  - Increased accountability → Software Owners take responsibility for their products.
+  
+  #### Move selected projects to cloud environment
+  
+  Proposed Solutions:
+  - Transition projects into the Data Platform according to use case squad availability
+  - Establish clear guidelines for when to use on-premises vs. cloud environments
+  
+  Expected Outcome:
+  - Greater cloud adoption → Reduced reliance on restrictive on-prem environments.
 
 ## Next steps
 
