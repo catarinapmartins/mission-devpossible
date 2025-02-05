@@ -20,7 +20,7 @@ This repository is the command center for transforming Swissgrid’s on-premise 
 
 ## Prioritized Solutions
 
-The distribution of solutions in the different phases considers a balance between the impact on users and implementation time.
+The action plan is divided into 3 phases: short-term, medium-term and long-term. The distribution of solutions in the different phases considers a balance between the impact on users and implementation time.
 
 
 ### Phase 1: Short-term actions
