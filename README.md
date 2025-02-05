@@ -32,7 +32,7 @@ The action plan is divided into 3 phases: short-term, mid-term and long-term. Th
     - Automate approval workflows where possible
       - Introduce a pre-approved software list to eliminate repetitive approvals.
       - Create IAM roles with specific authorizations (as done in R&D).
-    - Rethink approval workflow:
+    - Rethink approval workflow
       - Send to direct manager to confirm project needs.
       - Forward to relevant tech department which understands developer needs.
     
@@ -61,7 +61,8 @@ The action plan is divided into 3 phases: short-term, mid-term and long-term. Th
   
     Proposed Solutions:
     
-    - Define clear ownership, ensuring each software owner commits to testing updates before deployment (“No Untested Updates” policy).
+    - Define clear ownership, ensuring each software owner commits to testing updates 
+    before deployment (“No Untested Updates” policy).
     - Introduce a mandatory staging environment to test software updates before deployment.
     
     Expected Outcome:
@@ -72,7 +73,7 @@ The action plan is divided into 3 phases: short-term, mid-term and long-term. Th
     
     Proposed Solutions:
     
-    - Start assessing which projects/developers can move to the cloud environemnt.
+    - Start assessing which projects/developers can move to the cloud environment.
     
     Expected Outcome:
     
