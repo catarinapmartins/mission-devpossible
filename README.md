@@ -67,6 +67,7 @@ The action plan is divided into 3 phases: short-term, mid-term and long-term. Th
     
     Expected Outcome:
     
+    - Increased accountability → Software Owners take responsibility for their products.
     - More stability → Software failures decrease with enforced testing.
   
   #### Promote On-Cloud Environment
@@ -91,7 +92,7 @@ The action plan is divided into 3 phases: short-term, mid-term and long-term. Th
     
     Expected Outcome:
     
-    - Increased accountability → Software Owners take responsibility for their products.
+    - Improved developer experience
     
   #### Move Selected Projects to Cloud Environment
     
