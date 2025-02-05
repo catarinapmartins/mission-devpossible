@@ -89,6 +89,7 @@ The action plan is divided into 3 phases: short-term, mid-term and long-term. Th
     
     - Introduce automated testing as part of the CI/CD process.
     - Guidelines for development & testing.
+    - Establish clear guidelines for on-premise vs. cloud environments use
     
     Expected Outcome:
     
@@ -99,7 +100,6 @@ The action plan is divided into 3 phases: short-term, mid-term and long-term. Th
     Proposed Solutions:
     
     - Transition projects into the Data Platform according to "Use-Case Squad" availability
-    - Establish clear guidelines for on-premise vs. cloud environments use
     
     Expected Outcome:
     
