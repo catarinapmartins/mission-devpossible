@@ -64,6 +64,7 @@ The action plan is divided into 3 phases: short-term, mid-term and long-term. Th
     - Define clear ownership, ensuring each software owner commits to testing updates 
     before deployment (“No Untested Updates” policy).
     - Introduce a mandatory staging environment to test software updates before deployment.
+    - Ensure bought/outsourced software is delivered with proper documentation.
     
     Expected Outcome:
     
