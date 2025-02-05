@@ -8,7 +8,7 @@ This repository is the command center for transforming Swissgrid’s on-premise 
 
 <img width="605" alt="image" src="https://github.com/user-attachments/assets/9b6bf099-5c5c-484b-ba20-05aa5cf227d9" />
 
-## Critical Issues / Key Challenges
+## Critical Issues 
 
   - Slow and Restrictive Software Approval Process
     
@@ -18,9 +18,9 @@ This repository is the command center for transforming Swissgrid’s on-premise 
     
   - Lack of Software Ownership
 
-## Prioritized Solutions
+## Action Plan & Prioritized Solutions
 
-The action plan is divided into 3 phases: short-term, medium-term and long-term. The distribution of solutions in the different phases considers a balance between the impact on users and implementation time.
+The action plan is divided into 3 phases: short-term, mid-term and long-term. The distribution of solutions in the different phases considers a balance between the impact on users and implementation time.
 
 
 ### Phase 1: Short-term actions
