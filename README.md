@@ -2,7 +2,7 @@
 
 "Making on-premise development faster, smoother, and (slightly) less painful!"
 
-This repository is the command center for transforming Swissgrid’s on-premise development environment. From streamlining approvals to boosting machine performance, we're tackling the biggest dev headaches with practical solutions. 
+This repository is the command center for transforming Swissgrid’s on-premise development environment. It presents a prioritized action plan to address the key challenges described by the developers.
 
 ## Context
 
@@ -31,7 +31,7 @@ The action plan is divided into 3 phases: short-term, mid-term and long-term. Th
     
     - Automate approval workflows where possible
       - Introduce a pre-approved software list to eliminate repetitive approvals.
-      - Create IAM roles with specific authorizations (as done in R&D).
+      - Create roles for teams/projects with specific authorizations (as done in R&D).
     - Rethink approval workflow
       - Send to direct manager to confirm project needs.
       - Forward to relevant tech department which understands developer needs.
